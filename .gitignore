@@ -1,7 +1,18 @@
-# Java
-*.class
-*.log
-*.jar
-target/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv
+venv/
+dist/
 build/
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# macOS
 .DS_Store
